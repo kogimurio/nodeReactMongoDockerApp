@@ -1,6 +1,6 @@
-# Product API App 🚀
+# Product App 🚀
 
-A simple Node.js REST API for managing products using MongoDB, Docker, and styled with Tailwind CSS.
+A simple Node.js for managing products using MongoDB, Docker, and styled with Tailwind CSS.
 
 ---
 
@@ -8,4 +8,8 @@ A simple Node.js REST API for managing products using MongoDB, Docker, and style
 
 - **Node.js**
 - **Express.js**
-- **
+- **MongoDb**
+- **React.js**
+- **Tailwind**
+- **Docker**
+- **Restful API**
