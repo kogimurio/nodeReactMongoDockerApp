@@ -1,0 +1,31 @@
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "Laptop",
+    "price": 999
+}
+
+###
+GET http://localhost:3000/products
+
+###UPDATE products with params(most used for update)
+PUT http://localhost:3000/products/681c39a4954a6241dfa8248d
+Content-Type: application/json
+
+{
+    "name": "Laptop Updated"
+}
+
+###UPDATE products with query(less used for update)
+PUT http://localhost:3000/productsquery?id=681c3996954a6241dfa8248b
+Content-Type: application/json
+
+{
+    "name": "Handbag Updated"
+}
+
+###
+DELETE http://localhost:3000/products/681c342ee41ca4f6729ca824
+
+
